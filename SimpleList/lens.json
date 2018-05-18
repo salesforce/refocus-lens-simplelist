@@ -1,0 +1,8 @@
+{
+  "name": "SimpleList",
+  "description": "A simple list of samples.",
+  "helpEmail": "igoldstein@salesforce.com",
+  "helpUrl": "https://github.com/salesforce",
+  "license": "TBD",
+  "version": "1.0.0"
+}

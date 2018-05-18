@@ -1,0 +1,56 @@
+#lens {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 1em;
+  max-width: 1500px;
+}
+
+#sampleTable {
+  font-family: sans-serif;
+  border-collapse: collapse;
+}
+
+#sampleTable td, #sampleTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#sampleTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#sampleTable tr:hover {
+  background-color: #ddd;
+}
+
+#sampleTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#lens .status-OK {
+  color: green;
+}
+
+#lens .status-Info {
+  color: blue;
+}
+
+#lens .status-Warning {
+  color: orange;
+}
+
+#lens .status-Critical {
+  color: red;
+}
+
+#lens .status-Timeout {
+  color: gray;
+}
+
+#lens .status-Invalid {
+  color: gray;
+}

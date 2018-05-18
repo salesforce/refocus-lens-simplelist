@@ -1,0 +1,18 @@
+<div id="samples">
+  <table id="sampleTable">
+    <thead>
+      <tr>
+        <th>idx</th>
+        <th>sample.name</th>
+        <th>sample.status</th>
+        <th>sample.updatedAt</th>
+        <th>sample.previousStatus</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each samples}}
+        {{> sample}}
+      {{/each}}
+    </tbody>
+  </table>
+</div>
