@@ -42,8 +42,8 @@ LENS.addEventListener('refocus.lens.load', () => {
           samples.set(chg['sample.update'].new.name.toLowerCase(),
             chg['sample.update'].new);
         } else if (chg['sample.nochange']) {
-          samples.set(chg['sample.nochange'].name.toLowerCase(),
-            chg['sample.nochange']);
+          const key = chg['sample.nochange'].name.toLowerCase();
+          samples.get(key).updatedAt = chg['sample.nochange'].updatedAt;
         } else {
           console.warn('Unknown refocus.lens.realtime.change:', chg);
         }
