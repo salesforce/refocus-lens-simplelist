@@ -2,7 +2,10 @@
   "name": "SimpleList",
   "description": "A simple list of samples.",
   "helpEmail": "igoldstein@salesforce.com",
-  "helpUrl": "https://github.com/salesforce",
+  "helpUrl": "https://github.com/salesforce/refocus-lens-simplelist",
   "license": "TBD",
-  "version": "1.0.0"
+  "version": "1.0.1",
+  "releaseNotes": {
+    "1.0.1": "Support 'sample.nochange' event"
+  }
 }
