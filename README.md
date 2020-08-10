@@ -1,5 +1,7 @@
 # refocus-lens-simplelist
 
+Note: this repository is infrequently maintained.
+
 ## SimpleList
 
 A simple list of samples sorted by sample name. By default, it only displays
